@@ -18,8 +18,8 @@ const UUID = process.env.UUID || '18c6089c-817c-4657-9741-03bcb1db0548'; // 使�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.keai.pp.ua:443';        // 哪吒v1填写形式: nz.abc.com:8008  哪吒v0填写形式：nz.abc.com
 const NEZHA_PORT = process.env.NEZHA_PORT || '';            // 使用哪吒v1请留空，哪吒v0需填写
 const NEZHA_KEY = process.env.NEZHA_KEY || '78dvbmjB34Fe5xhlxJP8iIGjkgLUnOvH';              // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'sg239-railway.kejikkk.kdns.fr';          // 固定隧道域名,留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYTA5NWVjMzY3MWRjM2NiM2IwMDUwMGQ0NTEwOTY1YjIiLCJ0IjoiZGVmMzZkMGQtYWRkNS00MTc4LTgyNDMtMjFkZTVjYmE4MGZmIiwicyI6Ik5UQTFOalJoWlRRdFpqazVOaTAwTVdZM0xUbGhZekl0TkdNM05UZzRNemsyWXpBeSJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'railway-sg239.keaiduo.kdns.fr';          // 固定隧道域名,留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjA2ZWRhZjA4NTVkMWQ1NTE3MzUwMTRjYzI5YTA3YjgiLCJ0IjoiZDNjYmFlNDctYzM2ZS00MTgyLThkOTYtNWNhZjM0ZmI2NjEzIiwicyI6Ill4cmVsTFRTNTNVWEVVamc4ckNJYjBqOXloRGxTTEdxMC9Hd05sMEVPdXc9In0=';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
 const CFIP = process.env.CFIP || 'youxuan.yuyu2012.nyc.mn';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
